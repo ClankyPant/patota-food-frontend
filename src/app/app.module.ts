@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TextfieldComponent } from './patota-components/textfield/textfield.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TextfieldComponent,
   ],
   imports: [
     BrowserModule,
